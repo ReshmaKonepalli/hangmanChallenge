@@ -1,4 +1,4 @@
-# Hangman Game
+# Hangman Challenge
 
 This application is a Hangman Game Challenge developed as a web project using AngularJS and NodeJS. 
 
