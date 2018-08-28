@@ -130,13 +130,13 @@ input{
 }
 #buttonInstructions{
     position: absolute;
-    left: 350px;
+    left: 300px;
 }
 #buttonNewGame{
     position: absolute;
-    right: 350px;
+    right: 300px;
 }
-@media screen and (max-width: 800px) and (min-width: 590px){
+@media screen and (max-width: 767px) and (min-width: 590px){
     #buttonInstructions{
         position: absolute;
         left: 30px;
@@ -248,15 +248,15 @@ input{
         left : 270px;
     }
 }
-@media screen and (max-width: 500px) and (min-width: 360px) {
+@media screen and (max-width: 589px) and (min-width: 300px) {
     #buttonInstructions{
         position: absolute;
-        right: 200px;
+        right: 250px;
         top: 15px;
     }
     #buttonNewGame{
         position: absolute;
-        left: 200px;
+        left: 190px;
         top: 15px;
     }
     .fixed-top{
@@ -294,69 +294,162 @@ input{
         top: 530px;
         bottom: 0px;
         right: 0px;
-        left: 80px;
+        left: 190px;
     }
     .input-group-prepend{
         position: absolute;
         top: 580px;
         bottom: 0px;
         right: 0px;
-        left: 140px;
+        left: 250px;
     }
     .initial{
         position: absolute;
         top: 90px;
-        left : 60px;
+        left : 200px;
     }
     #stand1{
         position: absolute;
         top: 90px;
-        left : 60px;
+        left : 200px;
     }
     #stand2{
         position: absolute;
         top: 90px;
-        left : 60px;
+        left : 200px;
     }
     #stand3{
         position: absolute;
         top: 90px;
-        left : 60px;
+        left : 200px;
     }
     #rope4{
         position: absolute;
         top: 90px;
-        left : 60px;
+        left : 200px;
     }
     #head5{
         position: absolute;
         top: 90px;
-        left : 60px;
+        left : 200px;
     }
     #body6{
         position: absolute;
         top: 90px;
-        left : 60px;
+        left : 200px;
     }
     #hand1_7{
         position: absolute;
         top: 90px;
-        left : 60px;
+        left : 200px;
     }
     #hand2_8{
         position: absolute;
         top: 90px;
-        left : 60px;
+        left : 200px;
     }
     #leg1_9{
         position: absolute;
         top: 90px;
-        left : 60px;
+        left : 200px;
     }
     #hangman10{
         position: absolute;
         top: 90px;
-        left : 60px;
+        left : 200px;
     }
 
 }
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+    input{
+        position: absolute;
+        top: 560px;
+        bottom: 0px;
+        right: 0px;
+        left: 300px;
+    }
+    .input-group-prepend{
+        position: absolute;
+        top: 600px;
+        bottom: 0px;
+        right: 0px;
+        left: 370px;
+    }
+    #buttonInstructions{
+        position: absolute;
+        left: 10px;
+        top: 15px;
+    }
+    #buttonNewGame{
+        position: absolute;
+        left: 150px;
+        top: 15px;
+    }
+    .fixed-top{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 760px) {
+    input {
+        position: absolute;
+        top: 560px;
+        bottom: 0px;
+        right: 0px;
+        left: 220px;
+    }
+
+    .input-group-prepend {
+        position: absolute;
+        top: 600px;
+        bottom: 0px;
+        right: 0px;
+        left: 280px;
+    }
+
+    #buttonInstructions {
+        position: absolute;
+        left: 0px;
+        top: 15px;
+    }
+
+    #buttonNewGame {
+        position: absolute;
+        left: 150px;
+        top: 15px;
+    }
+    .fixed-top{
+        font-size: 30px;
+    }
+}
+    @media screen and (max-width: 895px) and (min-width: 765px) {
+        input {
+            position: absolute;
+            top: 560px;
+            bottom: 0px;
+            right: 0px;
+            left: 300px;
+        }
+
+        .input-group-prepend {
+            position: absolute;
+            top: 600px;
+            bottom: 0px;
+            right: 0px;
+            left: 280px;
+        }
+
+        #buttonInstructions {
+            position: absolute;
+            left: 0px;
+            top: 15px;
+        }
+
+        #buttonNewGame {
+            position: absolute;
+            right: 0px;
+            top: 15px;
+        }
+        .fixed-top{
+            font-size: 30px;
+        }
+    }
