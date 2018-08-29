@@ -421,35 +421,35 @@ input{
         font-size: 30px;
     }
 }
-    @media screen and (max-width: 895px) and (min-width: 765px) {
-        input {
-            position: absolute;
-            top: 560px;
-            bottom: 0px;
-            right: 0px;
-            left: 300px;
-        }
-
-        .input-group-prepend {
-            position: absolute;
-            top: 600px;
-            bottom: 0px;
-            right: 0px;
-            left: 280px;
-        }
-
-        #buttonInstructions {
-            position: absolute;
-            left: 0px;
-            top: 15px;
-        }
-
-        #buttonNewGame {
-            position: absolute;
-            right: 0px;
-            top: 15px;
-        }
-        .fixed-top{
-            font-size: 30px;
-        }
+@media screen and (max-width: 895px) and (min-width: 765px) {
+    input {
+        position: absolute;
+        top: 560px;
+        bottom: 0px;
+        right: 0px;
+        left: 300px;
     }
+
+    .input-group-prepend {
+        position: absolute;
+        top: 600px;
+        bottom: 0px;
+        right: 0px;
+        left: 280px;
+    }
+
+    #buttonInstructions {
+        position: absolute;
+        left: 0px;
+        top: 15px;
+    }
+
+    #buttonNewGame {
+        position: absolute;
+        right: 0px;
+        top: 15px;
+    }
+    .fixed-top{
+        font-size: 30px;
+    }
+}

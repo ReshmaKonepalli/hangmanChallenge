@@ -16,9 +16,9 @@
     <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
     <!--   endAngularCdn -->
 
-    <!-- fileblock:js appScripts -->
+    <!-- appScripts -->
     <script src="js/app.js"></script>
-    <!-- endfileblock -->
+    <!-- endappScriptsblock -->
 
     <!-- fileblock:css appStyles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -26,6 +26,7 @@
     <!-- endfileblock -->
 
 </head>
+<!--titleblock-->
 <body ng-app="app" ng-controller="hangmanGameController">
 <div class ="row">
     <div class = "col-sm-4"></div>
@@ -34,7 +35,9 @@
     </div>
     <div class = "col-sm-4"></div>
 </div>
+<!--endtitleblock-->
 
+<!--hangmandisplayblock-->
 <div class = "container">
     <div class ="row">
         <div class = "col-sm-4">
@@ -61,7 +64,9 @@
             <button id = "buttonInstructions" class="btn btn-default" ng-click="open()"> How to play? </button>
         </div>
     </div>
+    <!--endofhangmandisplayblock-->
 
+    <!--inputblock-->
     <div class="row">
         <div class = "col-sm-1"></div>
         <div class = "col-sm-10">
@@ -90,6 +95,7 @@
         </div>
         <div class = "col-sm-1"></div>
     </div>
+    <!--endofinputblock-->
 </div>
 </body>
 </html>
