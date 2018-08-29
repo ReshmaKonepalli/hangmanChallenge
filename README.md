@@ -31,6 +31,6 @@ has won the game.
 * Git Clone the required repository.
 * Import existing code source from Github/folder.
 * Open the project in any IDE or Editor.
-* Run the project with the following command: npm start -prefix hangmanChallenge dev.
+* Run the project with the following command: npm start -prefix hangmanChallenge dev or nodemon hangmanChallenge\bin\setup.js
 * Enjoy playing the game. 
 
